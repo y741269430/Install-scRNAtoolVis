@@ -18,7 +18,7 @@
     devtools::install_github("sajuukLyu/ggunchull", type = "source")
 ### 5.安装ggunchull时没有splancs这个包（服务器没有没有找到gfortran）  
 ![2.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/2.png)  
-### 6.去服务器找gfortran    
+### 6.去服务器找gfortran(https://blog.csdn.net/QFire/article/details/105250402)      
     ldconfig -p |grep fortran  
     ls /usr/lib/x86_64-linux-gnu/libgfortran* -lh  
 ### 7.添加软连接  
