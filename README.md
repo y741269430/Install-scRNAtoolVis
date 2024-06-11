@@ -1,5 +1,18 @@
 # Install scRNAtoolVis by linux
 # 安装scRNAtoolVis时遇到的错误
 
-## 1.首先是安装scRNAtoolVis时需要的包magick  
-![0.png]([https://github.com/y741269430/-R-GITHUB-tocken-/blob/main/figure/0.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/0.png))  
+### 1.安装scRNAtoolVis  
+    devtools::install_github('junjunlab/scRNAtoolVis')  
+### 2.安装scRNAtoolVis时没有magick这个包（服务器没有这个库文件）  
+![0.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/0.png)  
+### 3.然后去服务器安装库  
+#### linux 中运行(https://docs.ropensci.org/magick/articles/intro.html)    
+    sudo apt-get install libmagick++-dev  
+#### R 中运行  
+    install.packages('magick')  
+![1.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/1.png)  
+
+### 4.安装ggunchull
+    devtools::install_github("sajuukLyu/ggunchull", type = "source")
+### 5.安装ggunchull时没有splancs这个包（服务器没有没有找到gfortran）  
+![2.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/2.png)  
