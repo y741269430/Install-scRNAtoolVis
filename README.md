@@ -24,4 +24,6 @@
 ### 7.添加软连接  
     sudo ln -s /lib/x86_64-linux-gnu/libgfortran.so.5 /usr/lib/x86_64-linux-gnu/libgfortran.so  
 ![4.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/4.png)  
+### 8.安装成功  
 ![3.png](https://github.com/y741269430/Install-scRNAtoolVis/blob/main/png/3.png)  
+
